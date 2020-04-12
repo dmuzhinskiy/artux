@@ -91,12 +91,17 @@
 	padding: 160px 0 10em 0;
 	max-width: 1100px;
 	width: 90%;
+	
+}
+
+.ip-main p {
+	padding : 20px;
 }
 
 .ip-main h2 {
 	margin: 0;
 	padding: 0.5em 0 1em;
-	color: red;
+	color: #fff;
 	text-align: center;
 	font-size: 4.25em;
 	font-size: 4vw;
@@ -110,9 +115,14 @@
 	max-width: 1000px;
 	width: 100%;
 	border-radius: 8px;
-	background: #fff url(../img/browser.png) no-repeat 50% 0;
+	background: #17181c url(../img/browser.png) no-repeat 50% 0;
 	background-size: 100%;
-	color: #d3d3d3;
+	color: #b7b6b4;
+	text-indent: 1.5em; /* Отступ первой строки */
+    text-align: justify;
+}
+.browser_txt {
+	margin-left: 15px;
 }
 
 .box {
@@ -308,3 +318,94 @@
 	}
 
 }
+.footer{
+	background:#141414;
+	padding: 4em 0px;
+}
+.footer-main-left h3{
+	color:#fff;
+	margin: 0px;
+	padding-bottom: 1.5em;
+}
+.footer-main-right{
+	text-align:right;
+}
+.footer-main-right ul li{
+	list-style:none;
+	display:inline-block;
+	}
+.footer-main-right ul li span{
+	background:url(../images/social-icons.png) no-repeat 0px 0px;
+	width:31px;
+	height:23px;
+	display:block;
+	opacity: 0.4;
+    	filter: alpha(opacity=40);
+}
+.footer-main-right ul li span.facebook{
+	background-position:16px 0px;
+}
+.footer-main-right ul li span.twitter{
+	background-position:-26px 0px;
+}
+.footer-main-right ul li span.dribble{
+	background-position:-70px 0px;
+}
+.footer-main-right ul li span.google{
+	background-position:-111px 0px;
+}
+.footer-main-right p{
+	color:#474747;
+	font-size:16px;
+	padding-top: 2.2em;
+}
+.footer-bottom-left p{
+	padding-top: 0.6em;
+	color:#474747;
+	font-size:16px;
+	cursor: pointer;
+}
+.footer-bottom-left p:hover,.footer-bottom-left p.active{
+	text-decoration:underline;
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+	}
+.footer-main-right p a{
+	color:#fff;
+	}
+.footer-main-right p a:hover{
+	text-decoration:none;
+	color:#474747;
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+	}
+.footer-bottom-left {
+	padding: 0px;
+}
+#toTop {
+	display: none;
+	text-decoration: none;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	overflow: hidden;
+	width: 48px;
+	height: 48px;
+	border: none;
+	text-indent: 100%;
+	background: url(../images/scroll-top.png) no-repeat 0px 0px;
+}
+.bblock {
+     float: left; /*Задаем обтекание*/
+     color: white;
+     margin-top: 60px;
+     width: 25%; /*Фиксируем ширину блока*/
+     width: 25%; /*Фиксируем ширину блока*/
+     text-align: center; /*Центрируем текст по горизонтали*/
+    }
