@@ -401,11 +401,17 @@
 	text-indent: 100%;
 	background: url(../images/scroll-top.png) no-repeat 0px 0px;
 }
-.bblock {
-     float: left; /*Задаем обтекание*/
-     color: white;
-     margin-top: 60px;
-     width: 25%; /*Фиксируем ширину блока*/
-     width: 25%; /*Фиксируем ширину блока*/
-     text-align: center; /*Центрируем текст по горизонтали*/
-    }
+hr { background: url("http://static-ptl-ru.gcdn.co/static/3.35.6/common/css/scss/content/hrs/img/delimeter.png") no-repeat center top;
+ border: none;
+ height: 2px;
+ display: block;
+ overflow: hidden;}
+ 
+ .pdaraz {
+
+ }
+ @media (max-width:430px){
+	 .pdaraz {
+		 display: none;
+	 }
+ }
