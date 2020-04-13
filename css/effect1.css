@@ -320,7 +320,7 @@
 }
 .footer{
 	background:#141414;
-	padding: 4em 0px;
+	padding: 20px;
 }
 .footer-main-left h3{
 	color:#fff;
@@ -388,18 +388,38 @@
 .footer-bottom-left {
 	padding: 0px;
 }
-#toTop {
-	display: none;
-	text-decoration: none;
-	position: fixed;
-	bottom: 10px;
-	right: 10px;
-	overflow: hidden;
-	width: 48px;
-	height: 48px;
-	border: none;
-	text-indent: 100%;
-	background: url(../images/scroll-top.png) no-repeat 0px 0px;
+/* DivTable.com */
+.divTable{
+	display: table;
+	width: 100%;
+	border: 0px;
+}
+.divTableRow {
+	display: table-row;
+		border: 0px;
+}
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+		border: 0px;
+}
+.divTableCell, .divTableHead {
+
+	display: table-cell;
+	padding: 3px 10px;
+}
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+	font-weight: bold;
+}
+.divTableFoot {
+	background-color: #EEE;
+	display: table-footer-group;
+	font-weight: bold;
+}
+.divTableBody {
+	display: table-row-group;
 }
 hr { background: url("img/delimeter.png") no-repeat center top;
  border: none;
