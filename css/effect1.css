@@ -401,7 +401,7 @@
 	text-indent: 100%;
 	background: url(../images/scroll-top.png) no-repeat 0px 0px;
 }
-hr { background: url("http://static-ptl-ru.gcdn.co/static/3.35.6/common/css/scss/content/hrs/img/delimeter.png") no-repeat center top;
+hr { background: url("img/delimeter.png") no-repeat center top;
  border: none;
  height: 2px;
  display: block;
@@ -422,3 +422,7 @@ hr { background: url("http://static-ptl-ru.gcdn.co/static/3.35.6/common/css/scss
 	 .pdatext {
         font-size: 13px;
 	 }
+	 .pdatext img{
+        width:12px;
+	 }
+ }
