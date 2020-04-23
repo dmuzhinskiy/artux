@@ -52,7 +52,6 @@ body {
   overflow-x: visible;
   overflow-y: visible;
   background: #f9f9f9;
-  max-width: 100%;
 }
 
 
@@ -454,7 +453,7 @@ background: #000 !important;
 }
 
 .overlay {
-  background:rgba(0, 0, 0, 0.15) url(/images/header/header-parallax.jpg) repeat;
+  background:url(/images/header/header-parallax.jpg) repeat;
   position: absolute;
   width: 100%;
   top: 80px;
