@@ -185,11 +185,17 @@
 }
 @font-face {
     font-family: 'merriweather-regular';
-    src: url('../fonts/merriweather/merriweather-regular-webfont.eot');
-    src: url('../fonts/merriweather/merriweather-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/merriweather/merriweather-regular-webfont.woff') format('woff'),
-         url('../fonts/merriweather/merriweather-regular-webfont.ttf') format('truetype'),
-         url('../fonts/merriweather/merriweather-regular-webfont.svg#merriweatherregular') format('svg');
+    src: url('../fonts/merriweather/merriweather-regular.eot');
+    src: url('../fonts/merriweather/merriweather-regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/merriweather/merriweather-regular.woff') format('woff'),
+         url('../fonts/merriweather/merriweather-regular.ttf') format('truetype'),
+         url('../fonts/merriweather/merriweather-regular.svg#merriweatherregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'intro';
+    src: url('../fonts/intro/intro.eot');
     font-weight: normal;
     font-style: normal;
 }
