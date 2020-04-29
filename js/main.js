@@ -70,6 +70,13 @@
    		nav.fadeOut();   		
    	}     
   	});
+	
+	$(function () {
+    var menu = $('nav ul');
+    $('.nav a').on('click', function(){
+        $('.menu-toggle').click()
+    });
+});
 
 
    /*----------------------------------------------------*/
