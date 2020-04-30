@@ -837,10 +837,10 @@ header .logo a {
 	font: 0/0 a;
 	text-shadow: none;
 	color: transparent;
-	width: 42px;
-	height: 42px;
+	width: 180px;
+	height: 43px;
 	background: url("../images/logo.png") no-repeat center;
-	background-size: 42px 42px;
+	background-size: 180px 43px;
 	-moz-transition: all 0.5s ease-in-out;
 	-o-transition: all 0.5s ease-in-out;
 	-webkit-transition: all 0.5s ease-in-out;
@@ -853,9 +853,9 @@ header .logo a {
 	top: 0;
 }
 .sticky .logo a {
-	width: 38px;
-	height: 38px;
-	background-size: 38px 38px;
+	width: 120px;
+	height: 29px;
+	background-size: 120px 29px;
 }
 
 /**
