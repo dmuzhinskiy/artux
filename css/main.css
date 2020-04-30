@@ -1025,6 +1025,7 @@ a.menu-toggle {
 		font: 0/0 a;
 		text-shadow: none;
 		color: transparent;
+		
 	}
 	a.menu-toggle span::before, a.menu-toggle span::after {
 		content: '';
@@ -1085,10 +1086,10 @@ a.menu-toggle {
 	}
 	.main-navigation {
 		background: #14171c;
-		padding: 48px 42px 54px 42px;
+		padding: 79px 42px 54px 42px;
 		margin: 0;
 		width: 100%;
-		height: auto;
+		height: 100vh;
 		clear: both;
 		display: none;
 	}
@@ -1111,7 +1112,7 @@ a.menu-toggle {
 		border: none;
 	}
 	.main-navigation li a:hover {
-		color: #ff7b29;
+		color: #ff0000;
 	}
 	.main-navigation li.with-sep a {
 		padding-left: 0;
@@ -1122,7 +1123,7 @@ a.menu-toggle {
 	}
 	.main-navigation li.current > a {
 		background: none;
-		color: #ff7b29;
+		color: #ff0000;
 	}
 	.main-navigation li.current > a:after {
 		display: none;
