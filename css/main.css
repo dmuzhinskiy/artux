@@ -1,7 +1,7 @@
 /**
  * =================================================================== 
  *
- *  Lhander v1.0 Main Stylesheet ОСНОВА
+ *  Lhander v1.0 Main Stylesheet
  *  url: styleshout.com
  *  01-11-2016
  * -------------------------------------------------------------------
@@ -26,7 +26,6 @@
  *
  * =================================================================== 
  */
- 
 
 /** 
  * ===================================================================
@@ -138,18 +137,10 @@ h4, .h04 {
 	line-height: 1.76;
 }
 h5, .h05 {
-	font-size: 4.4rem;
+	font-size: 1.4rem;
 	line-height: 1.7;
 	text-transform: uppercase;
 	letter-spacing: .15rem;
-}
-.h105 {
-	font-size: 6.4rem;
-	line-height: 1.7;
-	text-transform: uppercase;
-	letter-spacing: .15rem;
-	color: red;
-	text-shadow: 1px 1px 2px black, 0 0 1em black;
 }
 h6, .h06 {
 	font-size: 1.3rem;
@@ -1006,7 +997,6 @@ a.menu-toggle {
 		top: -70px;
 		right: 0;
 	}
-	
 	a.menu-toggle {
 		display: block;
 		width: 40px;
@@ -1074,7 +1064,6 @@ a.menu-toggle {
 	.menu-toggle.is-clicked span {
 		background-color: rgba(255, 255, 255, 0);
 	}
-	
 	.menu-toggle.is-clicked span::before, .menu-toggle.is-clicked span::after {
 		background-color: white;
 		-moz-transition-delay: 0s, 0.2s;
@@ -1198,7 +1187,6 @@ a.menu-toggle {
 	max-width: 800px;
 	margin-left: auto;
 	margin-right: auto;
-	text-shadow: 4px 4px 5px black, 0 0 4em black;
 }
 .intro-content h5 {
 	color: rgba(255, 255, 255, 0.6);
@@ -1211,7 +1199,8 @@ a.menu-toggle {
 }
 .intro-content .video-link a {
 	display: inline-block;
-	width: 180px;
+	width: 90px;
+	height: 90px;
 	margin-bottom: 4.2rem;
 	outline: none;
 }
@@ -1252,7 +1241,8 @@ a.menu-toggle {
 		font-size: 1.6rem;
 	}
 	.intro-content .video-link a {
-		width: 150px;
+		width: 72px;
+		height: 72px;
 		margin-bottom: 3rem;
 	}
 }
@@ -1282,7 +1272,8 @@ a.menu-toggle {
 		letter-spacing: .15rem;
 	}
 	.intro-content .video-link a {
-		width: 150px;
+		width: 66px;
+		height: 66px;
 		margin-bottom: 1.5rem;
 	}
 }
@@ -1298,8 +1289,8 @@ a.menu-toggle {
 		letter-spacing: .15rem;
 	}
 	.intro-content .video-link a {
-		width: 150px;
-	
+		width: 60px;
+		height: 60px;
 	}
 }
 
