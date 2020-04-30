@@ -89,7 +89,7 @@ a, a:visited {
 	transition: all 0.3s ease-in-out;
 }
 a:hover, a:focus {
-	color: #ff7b29;
+	color: #ff0000;
 }
 
 /**
@@ -728,19 +728,19 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .section-intro h1 {
 	font-family: "merriweather-bold", serif;
 	font-size: 4.8rem;
-	color: #252525;
+	color: #98a1aa;
 	line-height: 1.25;
 	margin-bottom: 1.2rem;
 }
 .section-intro h5 {
-	color: rgba(56, 66, 78, 0.5);
+	color: #e1e2e6;
 	font-size: 1.6rem;
 	line-height: 1.875;
 	margin-bottom: 0.3rem;
 	letter-spacing: .4rem;
 }
 .section-intro .lead {
-	color: rgba(0, 0, 0, 0.45);
+	color: #e8e8ea;
 }
 .section-intro .with-bottom-line {
 	position: relative;
